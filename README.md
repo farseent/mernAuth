@@ -35,28 +35,33 @@ This is a full-stack authentication system built using the **MERN stack (MongoDB
 ## 📂 Folder Structure
 
 authentication/
+
 │-- client/ # Frontend (React)
+
 │-- server/ # Backend (Node.js + Express)
+
 │-- .gitignore # Ignore unnecessary files
+
 │-- README.md # Project documentation
 
 ## 📌 Getting Started
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/farseent/UserAuthentication.git
-cd authentication
+git clone https://github.com/farseent/mernAuth.git
 
 ### 2️⃣ Install Dependencies
 
 #### For Server
 
 cd server
+
 npm install express cors bcrypt cookie-parser nodemon jsonwebtoken mongoose dotenv
 
 #### For Client
 
 cd server
+
 npm install react-cookie react-router-dom react-toastify axios
 
 ## 🚀 Run the App
@@ -64,11 +69,13 @@ npm install react-cookie react-router-dom react-toastify axios
 ### Start the Backend Server
 
 cd server
+
 npm start
 
 ### Start the Frontend
 
 cd client
+
 npm start
 
 ## ⚙️ Environment Variables
@@ -76,7 +83,9 @@ npm start
 Create a .env file in the server directory and add:
 
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_secret_key
+
 PORT=4000
 
 ## 📜 License
